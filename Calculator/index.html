@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    
+    <br>
+    <br>
+    <div class="box">
+        <br>
+  
+   <input type="text" id="txt1" disabled>
+   <input type="text" id="txt2"  disabled>
+  
+<div id="box">
+    <button onclick="Delete()" id="z5"> delete</button>
+   
+    <button onclick="calc('%')" id="z3" > %</button>
+    <button onclick="calc(' / ')"  id="z3" >/ </button>
+</div>
+<div id="box">
+    <button onclick="calc(1)" id="z2"> 1</button>
+    <button onclick="calc(2)" id="z2" > 2</button>
+    <button onclick="calc(3)" id="z2"> 3</button>
+    <button onclick="calc(' - ')" id ="z3">-</button>
+</div>
+<div id="box">
+    <button onclick="calc(4)" id="z2" > 4</button>
+    <button onclick="calc(5)" id="z2" >5</button>
+    <button onclick="calc(6)"  id="z2" >6</button>
+    <button  onclick="calc(' + ')" id ="z3" >+</button>
+</div>
+<div id="box">
+    <button onclick="calc(7)" id="z2" >7</button>
+    <button onclick="calc(8)" id="z2" >8</button>
+    <button onclick="calc(9)" id="z2" >9</button>
+    <button onclick="calc(' * ')" id ="z3" >*</button>
+</div>
+<div id="box">
+    <button onclick="calc(0)" id="z2" >0</button>
+    <button onclick="calc('.')"  id="z2">.</button>
+    <button onclick=" equal()"  id ="z4">=</button>
+    
+</div>
+    </div>
+
+<script src="calc.js"></script>
+
+</body>
+</html>
